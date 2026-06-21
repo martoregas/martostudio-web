@@ -7,7 +7,8 @@
       "namespace": "android_app",
       "package_name": "com.martostudio.qrgenerator",
       "sha256_cert_fingerprints": [
-        "47:1C:AA:73:85:85:3F:0F:7B:34:40:A5:43:BB:B7:E2:53:BF:F5:01:FD:85:05:8B:40:F9:99:80:A0:66:D5:17"
+        "47:1C:AA:73:85:85:3F:0F:7B:34:40:A5:43:BB:B7:E2:53:BF:F5:01:FD:85:05:8B:40:F9:99:80:A0:66:D5:17",
+        "78:32:40:99:08:AB:49:3A:0B:9B:85:4D:B5:9B:95:08:28:98:A7:EE:25:C5:86:A9:19:EA:CC:95:14:71:DA:68"
       ]
     }
   }
