@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Redirigiendo...</title>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const qr = urlParams.get('qr') || urlParams.get('data') || '';
+        const playStoreUrl = 'https://play.google.com/store/apps/details?id=com.martostudio.qrgenerator' + (qr ? '&qr=' + encodeURIComponent(qr) : '');
+        window.location.href = playStoreUrl;
+    </script>
+</head>
+<body>
+    <p>Redirigiendo a Google Play Store...</p>
+</body>
+</html>
