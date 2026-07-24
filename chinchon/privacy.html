@@ -1,71 +1,417 @@
-<h2>4. Servicios de terceros</h2>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
 
-<p>
-  Para mejorar la experiencia, analizar el rendimiento y ofrecer
-  determinadas funcionalidades, utilizamos los siguientes servicios:
-</p>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
 
-<p>
-  <strong>Google Play Services:</strong>
-  para el funcionamiento base de la aplicación.
-</p>
+  <meta
+    name="description"
+    content="Política de Privacidad de Chinchón, de Marto Studios."
+  >
 
-<p>
-  <strong>Google AdMob:</strong>
-  para la entrega de anuncios publicitarios básicos.
-</p>
+  <title>Chinchón — Política de Privacidad</title>
 
-<p>
-  <strong>Google Analytics for Firebase:</strong>
-  para obtener estadísticas anónimas sobre el rendimiento general
-  y el uso de la aplicación.
-</p>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #071c16;
+      --card: #102a21;
+      --text: #f4f7f3;
+      --muted: #afbeb7;
+      --line: #29483c;
+      --accent: #e0a82e;
+    }
 
-<p>
-  <strong>Mixpanel:</strong>
-  para analizar eventos y comportamientos de uso, como partidas
-  iniciadas y finalizadas, cantidad de jugadores, manos cargadas,
-  uso de reenganches, anotaciones de −10, Chinchones y otras
-  interacciones dentro de la aplicación.
-</p>
+    * {
+      box-sizing: border-box;
+    }
 
-<p>
-  Esta información se utiliza únicamente para mejorar la interfaz,
-  el rendimiento y las funcionalidades de Chinchón. No utilizamos
-  Mixpanel para recopilar nombres de jugadores, fotografías ni otra
-  información personal identificable ingresada por el usuario.
-</p>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(
+          circle at 50% -20%,
+          #1d6249 0,
+          transparent 42%
+        ),
+        var(--bg);
+      line-height: 1.65;
+    }
 
-<p>
-  <strong>Google Play Billing:</strong>
-  para procesar de forma segura las compras integradas y las
-  funcionalidades Premium que pueda ofrecer la aplicación.
-</p>
+    main {
+      width: min(760px, calc(100% - 36px));
+      margin: 0 auto;
+      padding: 64px 0 80px;
+    }
 
-<h2>5. Permisos e Internet</h2>
+    header {
+      margin-bottom: 28px;
+    }
 
-<p>
-  La aplicación requiere acceso a Internet para interactuar con los
-  servicios de terceros mencionados anteriormente.
-</p>
+    .brand {
+      color: var(--accent);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
 
-<p>
-  También puede solicitar los siguientes permisos:
-</p>
+    h1 {
+      margin: 8px 0 4px;
+      font-size: clamp(2rem, 7vw, 3.2rem);
+      line-height: 1.1;
+    }
 
-<p>
-  <strong>Cámara:</strong>
-  se utiliza únicamente cuando el usuario decide tomar una fotografía
-  para identificar a un jugador.
-</p>
+    .subtitle,
+    .date {
+      color: var(--muted);
+    }
 
-<p>
-  <strong>Galería o biblioteca de imágenes:</strong>
-  se utiliza únicamente cuando el usuario decide seleccionar una
-  fotografía existente.
-</p>
+    .date {
+      margin-top: 12px;
+      font-size: 0.88rem;
+    }
 
-<p>
-  La aplicación no utiliza la cámara ni la galería sin una acción
-  explícita del usuario y no accede a contactos, ubicación ni micrófono.
-</p>
+    article {
+      padding: clamp(24px, 5vw, 44px);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      background: color-mix(
+        in srgb,
+        var(--card) 94%,
+        transparent
+      );
+      box-shadow: 0 28px 70px #0007;
+    }
+
+    h2 {
+      margin: 32px 0 8px;
+      font-size: 1.15rem;
+    }
+
+    h2:first-child {
+      margin-top: 0;
+    }
+
+    p {
+      margin: 8px 0;
+      color: var(--muted);
+    }
+
+    strong,
+    a {
+      color: var(--text);
+    }
+
+    a {
+      text-underline-offset: 3px;
+    }
+
+    footer {
+      padding-top: 24px;
+      color: #748f83;
+      font-size: 0.82rem;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header>
+      <div class="brand">
+        Marto Studios
+      </div>
+
+      <h1>
+        Chinchón
+      </h1>
+
+      <div class="subtitle">
+        Política de Privacidad
+      </div>
+
+      <div class="date">
+        Fecha de entrada en vigor: 24 de julio de 2026
+      </div>
+    </header>
+
+    <article>
+      <p>
+        Esta Política de Privacidad describe cómo Marto Studios
+        recopila, utiliza y protege la información en la aplicación
+        móvil Chinchón.
+      </p>
+
+      <h2>
+        1. Información almacenada
+      </h2>
+
+      <p>
+        Chinchón permite ingresar nombres de jugadores y,
+        opcionalmente, asignarles una fotografía.
+      </p>
+
+      <p>
+        La aplicación también guarda puntajes, estadísticas,
+        resultados e historial de partidas para que el usuario pueda
+        consultarlos posteriormente.
+      </p>
+
+      <p>
+        Los nombres, fotografías, puntajes, estadísticas e historial
+        de partidas se almacenan localmente en el dispositivo.
+        Marto Studios no recibe ni almacena esta información en sus
+        servidores.
+      </p>
+
+      <h2>
+        2. Servicios de terceros
+      </h2>
+
+      <p>
+        Para mejorar la experiencia, analizar el rendimiento y
+        ofrecer determinadas funcionalidades, utilizamos los
+        siguientes servicios:
+      </p>
+
+      <p>
+        <strong>Google Play Services:</strong>
+        para el funcionamiento base de la aplicación.
+      </p>
+
+      <p>
+        <strong>Google AdMob:</strong>
+        para la entrega de anuncios publicitarios básicos.
+      </p>
+
+      <p>
+        <strong>Google Analytics for Firebase:</strong>
+        para obtener estadísticas anónimas sobre el rendimiento
+        general y el uso de la aplicación.
+      </p>
+
+      <p>
+        <strong>Mixpanel:</strong>
+        para analizar eventos y comportamientos de uso, como partidas
+        iniciadas y finalizadas, cantidad de jugadores, manos
+        cargadas, uso de reenganches, anotaciones de −10, Chinchones
+        y otras interacciones dentro de la aplicación.
+      </p>
+
+      <p>
+        La información recopilada mediante estos servicios se utiliza
+        únicamente para mejorar la interfaz, el rendimiento y las
+        funcionalidades de Chinchón.
+      </p>
+
+      <p>
+        No utilizamos estos servicios para recopilar nombres de
+        jugadores, fotografías, puntajes individuales ni otra
+        información personal identificable ingresada por el usuario.
+      </p>
+
+      <p>
+        <strong>Google Play Billing:</strong>
+        para procesar de forma segura las compras integradas y las
+        funcionalidades Premium que pueda ofrecer la aplicación.
+      </p>
+
+      <h2>
+        3. Fotografías
+      </h2>
+
+      <p>
+        El usuario puede elegir voluntariamente una fotografía para
+        identificar a cada jugador.
+      </p>
+
+      <p>
+        Para hacerlo, puede utilizar la cámara del dispositivo o
+        seleccionar una imagen existente de la galería.
+      </p>
+
+      <p>
+        Las fotografías seleccionadas se utilizan únicamente dentro
+        de la aplicación y se almacenan localmente en el dispositivo.
+        Marto Studios no recibe ni comparte estas imágenes.
+      </p>
+
+      <h2>
+        4. Resultados compartidos
+      </h2>
+
+      <p>
+        Chinchón permite generar una imagen con el resultado de una
+        partida y compartirla mediante las aplicaciones instaladas
+        en el dispositivo.
+      </p>
+
+      <p>
+        Esta acción sólo se realiza cuando el usuario selecciona
+        expresamente la opción de compartir.
+      </p>
+
+      <p>
+        Marto Studios no recibe una copia de la imagen, no selecciona
+        sus destinatarios y no controla las aplicaciones utilizadas
+        por el usuario para compartirla.
+      </p>
+
+      <h2>
+        5. Permisos e Internet
+      </h2>
+
+      <p>
+        La aplicación requiere acceso a Internet para interactuar con
+        los servicios de terceros mencionados anteriormente.
+      </p>
+
+      <p>
+        También puede solicitar los siguientes permisos:
+      </p>
+
+      <p>
+        <strong>Cámara:</strong>
+        se utiliza únicamente cuando el usuario decide tomar una
+        fotografía para identificar a un jugador.
+      </p>
+
+      <p>
+        <strong>Galería o biblioteca de imágenes:</strong>
+        se utiliza únicamente cuando el usuario decide seleccionar
+        una fotografía existente.
+      </p>
+
+      <p>
+        <strong>Internet:</strong>
+        se utiliza para acceder a Google Play Services, Google AdMob,
+        Google Analytics for Firebase, Mixpanel y Google Play Billing.
+      </p>
+
+      <p>
+        La aplicación no utiliza la cámara ni la galería sin una
+        acción explícita del usuario.
+      </p>
+
+      <p>
+        Chinchón no accede a los contactos, la ubicación ni el
+        micrófono del dispositivo.
+      </p>
+
+      <h2>
+        6. Analítica y publicidad
+      </h2>
+
+      <p>
+        Google Analytics for Firebase y Mixpanel pueden recopilar
+        información técnica y anónima relacionada con el uso de la
+        aplicación, como el modelo del dispositivo, la versión del
+        sistema operativo, la versión de la aplicación, eventos de
+        uso y datos generales de rendimiento.
+      </p>
+
+      <p>
+        Google AdMob puede utilizar identificadores publicitarios y
+        otra información técnica para mostrar y medir anuncios,
+        de acuerdo con las políticas de privacidad de Google.
+      </p>
+
+      <p>
+        Estos servicios son administrados por terceros y se
+        encuentran sujetos a sus propias políticas de privacidad.
+      </p>
+
+      <h2>
+        7. Compras integradas
+      </h2>
+
+      <p>
+        Las compras realizadas dentro de la aplicación son procesadas
+        de manera segura mediante Google Play Billing.
+      </p>
+
+      <p>
+        Marto Studios no recibe ni almacena números de tarjetas,
+        información bancaria ni datos completos de los métodos de
+        pago del usuario.
+      </p>
+
+      <h2>
+        8. Conservación y eliminación de datos
+      </h2>
+
+      <p>
+        Los datos almacenados localmente permanecen en el dispositivo
+        hasta que el usuario los edita o elimina desde la aplicación,
+        borra los datos de la aplicación desde la configuración del
+        dispositivo o desinstala la aplicación.
+      </p>
+
+      <p>
+        La información recopilada por servicios de terceros se
+        conserva de acuerdo con las políticas y los períodos de
+        retención establecidos por cada proveedor.
+      </p>
+
+      <h2>
+        9. Privacidad de menores
+      </h2>
+
+      <p>
+        Chinchón no está diseñada para recopilar deliberadamente
+        información personal de menores.
+      </p>
+
+      <p>
+        Los nombres o fotografías ingresados en la aplicación son
+        proporcionados voluntariamente por el usuario y permanecen
+        almacenados localmente en su dispositivo.
+      </p>
+
+      <h2>
+        10. Cambios en esta política
+      </h2>
+
+      <p>
+        Esta Política de Privacidad puede actualizarse cuando se
+        incorporen nuevas funcionalidades, servicios o cambios en
+        las prácticas de tratamiento de datos.
+      </p>
+
+      <p>
+        La versión vigente estará disponible permanentemente en esta
+        página.
+      </p>
+
+      <h2>
+        11. Contacto
+      </h2>
+
+      <p>
+        Si tiene preguntas sobre esta Política de Privacidad, puede
+        contactarnos a través de la ficha de la aplicación en la
+        tienda.
+      </p>
+    </article>
+
+    <footer>
+      © 2026 Marto Studios
+    </footer>
+  </main>
+</body>
+</html>
