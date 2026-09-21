@@ -1,0 +1,28 @@
+{
+  "apps": [
+    {
+      "id": "anotador-chinchon",
+      "name": "Anotador Chinchón",
+      "bannerUrl": "https://raw.githubusercontent.com/martoregas/martostudio-web/refs/heads/main/banners/chinchon.png",
+      "international": false,
+      "androidUrl": "com.martostudio.chinchon",
+      "iosUrl": null
+    },
+    {
+      "id": "anotador-escoba",
+      "name": "Anotador Escoba",
+      "bannerUrl": "https://raw.githubusercontent.com/martoregas/martostudio-web/refs/heads/main/banners/escoba.png",
+      "international": "com.martostudio.escoba.anotador",
+      "androidUrl": null,
+      "iosUrl": null
+    },
+    {
+      "id": "anotador-generala",
+      "name": "Anotador Generala",
+      "bannerUrl": "https://raw.githubusercontent.com/martoregas/martostudio-web/refs/heads/main/banners/generala.png",
+      "international": false,
+      "androidUrl": "com.martostudio.anotador.generala",
+      "iosUrl": null
+    }
+  ]
+}
