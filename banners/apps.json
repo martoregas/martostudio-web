@@ -3,7 +3,7 @@
     {
       "id": "anotador-chinchon",
       "name": "Anotador Chinchón",
-      "bannerUrl": "https://raw.githubusercontent.com/martoregas/martostudio-web/refs/heads/main/banners/chinchon.png",
+      "bannerUrl": "https://raw.githubusercontent.com/martoregas/martostudio-web/refs/heads/main/banners/chinchon.webp",
       "international": false,
       "argentina": false,
       "androidUrl": "com.martostudio.chinchon",
@@ -12,7 +12,7 @@
     {
       "id": "anotador-escoba",
       "name": "Anotador Escoba",
-      "bannerUrl": "https://raw.githubusercontent.com/martoregas/martostudio-web/refs/heads/main/banners/escoba.png",
+      "bannerUrl": "https://raw.githubusercontent.com/martoregas/martostudio-web/refs/heads/main/banners/escoba.webp",
       "international": false,
       "argentina": false,
       "androidUrl": "com.martostudio.escoba.anotador",
@@ -21,7 +21,7 @@
     {
       "id": "anotador-generala",
       "name": "Anotador Generala",
-      "bannerUrl": "https://raw.githubusercontent.com/martoregas/martostudio-web/refs/heads/main/banners/generala.png",
+      "bannerUrl": "https://raw.githubusercontent.com/martoregas/martostudio-web/refs/heads/main/banners/generala.webp",
       "international": false,
       "argentina": false,
       "androidUrl": "com.martostudio.anotador.generala",
@@ -30,7 +30,7 @@
     {
       "id": "anotador-truco",
       "name": "Anotador Truco",
-      "bannerUrl": "https://raw.githubusercontent.com/martoregas/martostudio-web/refs/heads/main/banners/truco.png",
+      "bannerUrl": "https://raw.githubusercontent.com/martoregas/martostudio-web/refs/heads/main/banners/truco.webp",
       "international": false,
       "argentina": true,
       "androidUrl": "com.mregas.truco.anotador",
