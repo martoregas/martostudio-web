@@ -1,0 +1,64 @@
+{
+  "apps": [
+    {
+      "id": "anotador-chinchon",
+      "name": "Anotador Chinchón",
+      "bannerUrl": "https://raw.githubusercontent.com/martoregas/martostudio-web/refs/heads/main/promo/banners/chinchon.webp",
+      "icon": "https://raw.githubusercontent.com/martoregas/martostudio-web/refs/heads/main/promo/icons/chinchon.webp",
+      "international": false,
+      "argentina": false,
+      "androidUrl": "com.martostudio.chinchon",
+      "iosUrl": null
+    },
+    {
+      "id": "anotador-escoba",
+      "name": "Anotador Escoba",
+      "bannerUrl": "https://raw.githubusercontent.com/martoregas/martostudio-web/refs/heads/main/promo/banners/escoba.webp",
+      "icon": "https://raw.githubusercontent.com/martoregas/martostudio-web/refs/heads/main/promo/icons/escoba.webp",
+      "international": false,
+      "argentina": false,
+      "androidUrl": "com.martostudio.escoba.anotador",
+      "iosUrl": null
+    },
+    {
+      "id": "anotador-generala",
+      "name": "Anotador Generala",
+      "bannerUrl": "https://raw.githubusercontent.com/martoregas/martostudio-web/refs/heads/main/promo/banners/generala.webp",
+      "icon": "https://raw.githubusercontent.com/martoregas/martostudio-web/refs/heads/main/promo/icons/generala.webp",
+      "international": false,
+      "argentina": false,
+      "androidUrl": "com.martostudio.anotador.generala",
+      "iosUrl": null
+    },
+    {
+      "id": "anotador-truco",
+      "name": "Anotador Truco",
+      "bannerUrl": "https://raw.githubusercontent.com/martoregas/martostudio-web/refs/heads/main/promo/banners/truco.webp",
+      "icon": "https://raw.githubusercontent.com/martoregas/martostudio-web/refs/heads/main/promo/icons/truco.webp",
+      "international": false,
+      "argentina": true,
+      "androidUrl": "com.mregas.truco.anotador",
+      "iosUrl": null
+    },
+    {
+      "id": "anotador-rummy",
+      "name": "Rummy Scorecard",
+      "bannerUrl": "https://raw.githubusercontent.com/martoregas/martostudio-web/refs/heads/main/promo/banners/rummy.webp",
+      "icon": "https://raw.githubusercontent.com/martoregas/martostudio-web/refs/heads/main/promo/icons/rummy.webp",
+      "international": true,
+      "argentina": false,
+      "androidUrl": "martostudio.rummy.scorecard",
+      "iosUrl": null
+    },
+    {
+      "id": "anotador-yahtzee",
+      "name": "Yahtzee Scorecard",
+      "bannerUrl": "https://raw.githubusercontent.com/martoregas/martostudio-web/refs/heads/main/promo/banners/yahtzee.webp",
+      "icon": "https://raw.githubusercontent.com/martoregas/martostudio-web/refs/heads/main/promo/icons/yahtzee.webp",
+      "international": true,
+      "argentina": false,
+      "androidUrl": "com.martostudio.yahtzee.scorecard",
+      "iosUrl": null
+    }
+  ]
+}
