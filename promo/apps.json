@@ -59,6 +59,16 @@
       "argentina": false,
       "androidUrl": "com.martostudio.yahtzee.scorecard",
       "iosUrl": null
+    },
+    {
+      "id": "anotador-carioca",
+      "name": "Carioca Anotador",
+      "bannerUrl": "https://raw.githubusercontent.com/martoregas/martostudio-web/refs/heads/main/promo/banners/carioca.webp",
+      "icon": "https://raw.githubusercontent.com/martoregas/martostudio-web/refs/heads/main/promo/icons/carioca.webp",
+      "international": false,
+      "argentina": false,
+      "androidUrl": "com.martostudio.carioca.anotador",
+      "iosUrl": null
     }
   ]
 }
